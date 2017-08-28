@@ -1,0 +1,28 @@
+{
+  "name": "jk/monolog-request-header-processor",
+  "description": "Monolog processor which injects HTTP request headers into the log",
+  "keywords": [
+    "log",
+    "logging",
+    "monolog",
+    "http",
+    "header"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jens Kohl",
+      "email": "jens.kohl@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "monolog/monolog": ">=1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "JK\\Monolog\\Processor\\": "src"
+    }
+  }
+}
